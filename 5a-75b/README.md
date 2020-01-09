@@ -36,6 +36,16 @@ The board has the following components:
 The board has 1 unpopulated 4-pin connector with the JTAG signals and 1 unpopulated 2-pin connector with
 GND and the 3.3V. This makes it extremely easy to connect a JTAG programmer to the board!
 
+```
+V4 - TDO - J30
+R5 - TDI - J32
+T5 - TCK - J27
+U5 - TMS - J31
+
+GND  - J34
+3.3V - J33
+```
+
 ![JTAG connection](./jtag.jpg)
 
 ![OpenOCD detect ECP5 FPGA](./openocd.png)
