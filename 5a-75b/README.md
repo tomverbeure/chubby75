@@ -14,6 +14,10 @@ The board has the following components:
     * [ECP5 Family Datasheet](https://www.latticesemi.com/view_document?document_id=50461)
     * [ECP5U-25 Pinout CSV](https://www.latticesemi.com/view_document?document_id=50485)
     * [Lattice Package Diagrams](https://www.latticesemi.com/view_document?document_id=213)
+    * [JTAG BSDL file](https://www.latticesemi.com/view_document?document_id=50579)
+
+        The BSDL file requires a Lattice account before it can be downloaded.
+
 
 * 1 25Q16 16Mbit serial PROM for FPGA configuration
 
