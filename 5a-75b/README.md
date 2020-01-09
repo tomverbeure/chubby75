@@ -10,9 +10,23 @@ open-source backend flows.
 The board has the following components:
 
 * LFE5U-25F FPGA
-* 1 25Q16 serial PROM for FPGA configuration
+
+    * [ECP5 Family Datasheet](https://www.latticesemi.com/view_document?document_id=50461)
+    * [ECP5U-25 Pinout CSV](https://www.latticesemi.com/view_document?document_id=50485)
+    * [Lattice Package Diagrams](https://www.latticesemi.com/view_document?document_id=213)
+
+* 1 25Q16 16Mbit serial PROM for FPGA configuration
+
+    * [Winbond W25Q16DV datasheet](https://www.winbond.com/resource-files/w25q16dv_revi_nov1714_web.pdf)
+    
+    Different boards will have different serial PROMs, but they're all compatible...
+
 * 2 1M x 16bit SDRAMs (on my board, they're EtronTech EM636165-6G 166MHz)
+
+    * [Datasheet](http://www.etron.com/manager/uploads/EM636165_34_General%20.pdf)
+
 * 2 1Gb Ethernet PHYs (Boardcom B50612D, just like the RV901T)
+
 * Tons of level shifters to translate from 3.3V to 5V signaling
 
 The board has 1 unpopulated 4-pin connector with the JTAG signals and 1 unpopulated 2-pin connector with
